@@ -5,32 +5,48 @@
         margin-bottom: 0px;
     }
 
-    .title {
+    .amount {
         font-size: 20px;
         font-weight: bold;
-        margin-bottom: 15px;
-        text-align: center;
+        margin-bottom: 10px;
     }
 
-    .apple {
-        font-size: 12px;
-        text-align: center;
-        margin-bottom: 15px;
+    .currency {
+        font-size: 10px;
+        margin-left: 8px;
+        font-weight: 500;
+        color: gray;   
     }
 
-    .redirect {
-        font-size: 12px;
-        text-align: center;
-        color: rgb(0, 200, 255);
-        cursor: pointer;
+    .positive {
+        color: rgb(87, 223, 8);
+        font-size: 14px;
+        margin-bottom: 8px;
     }
 
-    .redirect:hover {
-        text-decoration: underline;
+    .elapsed {
+        color: gray;
+        font-size: 16px;
     }
+
+    .deviation {
+        color: red;
+
+    }
+
 
 
 </style>
-<p class="title">Shopping for your business &#63;</p>
-<p class="apple">See how Apple at Work can help&#46;</p>
-<p class="redirect">Learn more &gt;</p>
+<p class="amount">
+    1,049.61
+    <span class="currency">USD</span>
+</p>
+
+<p class="positive">
+    +18.05 (1.75%) today
+</p>
+
+<p class="elapsed">
+    After hours 1,048.00
+    <span class="deviation">-1.61 (0.15%)</span>
+</p>
