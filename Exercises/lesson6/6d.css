@@ -1,0 +1,22 @@
+p {
+    font-family: Montserrat, Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.category {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.pitch {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.pitch:hover {
+    color: rgb(0, 145, 255);
+}
