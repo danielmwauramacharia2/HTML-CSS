@@ -1,0 +1,45 @@
+.pick-up,
+.destination {
+    display: block;
+    font-size: 10px;
+    margin-top: 10px;
+    width: 200px;
+    background-color: rgb(240, 234, 234);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    opacity: 0.5px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-weight: 50;
+    color: black;
+}
+
+.destination {
+    margin-bottom: 30px;
+}
+
+.request,
+.schedule {
+    font-size: 10px;
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.schedule {
+    background-color:  rgb(240, 234, 234);
+    color: black;
+}
+
+.request {
+    background-color: black;
+    color: white;
+}
