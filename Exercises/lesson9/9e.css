@@ -1,0 +1,40 @@
+        .div-tweet {
+            width: 250px;
+            border: none;
+            box-shadow: 0 0 6px 0 rgba(105, 104, 104, 0.5);
+            padding: 10px;
+        }
+
+        .profile {
+            width: 30px;
+            height: 30px;
+            object-fit: cover;
+            border-radius: 15px;
+            object-position: center;
+            vertical-align: middle
+        }
+
+        .text-box {
+            vertical-align: middle;
+            font-size: 12px;
+            border: none;
+            width: 120px;
+            vertical-align: middle;
+            padding: 10px;
+        }
+
+        button {
+            background-color: rgb(29, 155, 240);
+            width: 50px;
+            color: white;
+            border: none;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 2px;
+            padding-right: 2px;
+            border-radius: 10px;
+            font-size: 10px;
+            font-weight: bold;
+            vertical-align: middle;
+            cursor: pointer;
+        }
