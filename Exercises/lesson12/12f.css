@@ -1,0 +1,41 @@
+
+
+.design-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    background-color: rgba(133, 16, 191);
+    align-items: center;
+}
+
+p {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.search-bar {
+    width: 450px;
+    flex: 1;
+    border-radius: 20px;
+    border: none;
+    height: 25px;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+.download-button {
+    background-color: rgba(133, 16, 191);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    border: 0.5px;
+    border-style: solid;
+    border-color: white;
+    margin-right: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
