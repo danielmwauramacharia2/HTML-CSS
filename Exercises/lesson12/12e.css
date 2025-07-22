@@ -1,0 +1,49 @@
+p {
+    margin: 0;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.design-container {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    border: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.design-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: rgb(46, 142, 238);
+    border: none;
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.home-button {
+    width: 30px;
+    height: 15px;
+    border-radius: 12px;
+    padding-top: 2px;
+}
+
+.notify-button,
+.message-button {
+    width: 20px;
+    height: 13px;
+    border-radius: 9px;
+    padding-top: 2px;
+}
