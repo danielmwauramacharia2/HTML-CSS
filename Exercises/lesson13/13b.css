@@ -1,0 +1,35 @@
+.flex-design {
+    display: flex;
+    height: 40px;
+}
+
+.second-flexbox {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+}
+
+.paras {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+
+.first-flexbox {
+    width: 100px;
+    background-color: lightpink;
+}
+
+.div1 {
+    background-color: none;
+    font-size: 12px;
+}
+
+p {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
