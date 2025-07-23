@@ -1,0 +1,59 @@
+.email-design {
+    width: 280px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.05);
+    border-color: lightgray;
+    padding: 10px;
+}
+
+p {
+    margin: 0;
+    font-family: Arial;
+}
+
+.category-email {
+    font-size: 10px;
+    color: rgb(111, 109, 109);
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.email-source {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.email-title {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.email-message {
+    font-size: 10px;
+    margin-bottom: 3px;
+    color: rgb(111, 109, 109);
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    object-position: center;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.content-container {
+    display: flex;
+}
+
+.time {
+    font-size: 8px;
+    color: rgb(127, 124, 124);
+}
